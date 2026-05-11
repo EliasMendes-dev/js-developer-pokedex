@@ -1,6 +1,9 @@
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    /* Reset de margens e padding para todos os elementos */
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -11,7 +14,6 @@ body {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #fff;
 }
 
 @media screen and (min-width: 992px) {
